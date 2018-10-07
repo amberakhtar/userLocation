@@ -12,6 +12,7 @@
 		7B37B87A2145586F005BFF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B37B8782145586F005BFF32 /* Main.storyboard */; };
 		7B37B87C21455870005BFF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B37B87B21455870005BFF32 /* Assets.xcassets */; };
 		7B37B87F21455870005BFF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B37B87D21455870005BFF32 /* LaunchScreen.storyboard */; };
+		7B37B88821455E05005BFF32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B37B88721455E05005BFF32 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B37B87B21455870005BFF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B37B87E21455870005BFF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B37B88021455870005BFF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B37B88721455E05005BFF32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B37B88821455E05005BFF32 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				7B37B8732145586F005BFF32 /* userLocation */,
 				7B37B8722145586F005BFF32 /* Products */,
+				7B37B88621455E05005BFF32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				7B37B88021455870005BFF32 /* Info.plist */,
 			);
 			path = userLocation;
+			sourceTree = "<group>";
+		};
+		7B37B88621455E05005BFF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B37B88721455E05005BFF32 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
